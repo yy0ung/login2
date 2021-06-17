@@ -39,7 +39,7 @@ body{
 .blank_message, .short_message, .incorrect_message{
   color: #870000;
   font-size: 12px;
-  display:none;
+  
 }
 
 #submit{
@@ -76,10 +76,4 @@ body{
 #box_id:focus{
 
   background-color: white;
-}
-
-.blank_message:active,
-.short_message:active,
-.incorrect_message:active{
-  display:block;
 }
